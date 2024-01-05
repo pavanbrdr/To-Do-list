@@ -7,7 +7,7 @@ function addTask() {
         let li = document.createElement("li");
         li.innerText = newTask ;
         let span = document.createElement("span");
-        span.innerText = "&#xd7";
+        span.innerText = "❌";
         li.appendChild(span);
         taskList.appendChild(li);
         console.log(newTask);
